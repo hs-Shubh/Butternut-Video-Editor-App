@@ -1,0 +1,43 @@
+{
+  "title": "My Edit",
+  "overlays": [
+    {
+      "id": "overlay-1",
+      "type": "text",
+      "content": "Happy New Year!",
+      "position": { "x": 0.25, "y": 0.8 },
+      "scale": 1.0,
+      "rotation": 0,
+      "opacity": 0.95,
+      "start_time": 2.5,
+      "end_time": 6.0,
+      "z_index": 2
+    },
+    {
+      "id": "overlay-2",
+      "type": "image",
+      "content": "overlay_image.png",
+      "position": { "x": 0.1, "y": 0.1 },
+      "scale": 1.2,
+      "rotation": -10,
+      "opacity": 0.9,
+      "start_time": 1.0,
+      "end_time": 4.0,
+      "z_index": 3
+    },
+    {
+      "id": "overlay-3",
+      "type": "video",
+      "content": "overlay_clip.mp4",
+      "position": { "x": 0.6, "y": 0.2 },
+      "scale": 0.8,
+      "rotation": 0,
+      "opacity": 1.0,
+      "start_time": 3.0,
+      "end_time": 8.0,
+      "z_index": 4
+    }
+  ],
+  "output_format": "mp4",
+  "resolution": { "width": 1280, "height": 720 }
+}
